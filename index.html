@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney Online - 1996</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            text-align: center;
+            color: black;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        a {
+            color: #9A031E; /* Changed to a darker purple-blue similar to the image */
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background: white;
+            border-bottom: 3px solid red;
+            padding: 10px;
+        }
+
+        .header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .date-banner {
+            font-size: 14px;
+            margin-bottom: 10px;
+            padding: 10px 0;
+        }
+
+        .menu {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        .menu a {
+            margin: 0 5px;
+            text-decoration: none;
+            color: #9A031E;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .column {
+            width: 30%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .column {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .column img {
+            width: 100%;
+            height: auto;
+            max-height: 150px;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            font-size: 12px;
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: red;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .column .intro {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="date-banner">
+            <p>December 20-22, 1996 | <a href="#">Disneyland</a> | <a href="#">Prize Drawing Sunday</a> | <a href="#">The Christmas Tree</a> | <a href="#">Contents</a></p>
+        </div>
+
+        <div class="header">
+            <img src="Header.jpg" alt="Disney Header">
+        </div>
+
+        <div class="menu">
+            <a href="#">Star Watch</a> |
+            <a href="#">Fun</a> |
+            <a href="#">Favorites</a> |
+            <a href="#">Books</a> |
+            <a href="#">Movies</a> |
+            <a href="#">Music</a> |
+            <a href="#">Shopping</a> |
+            <a href="#">Travel</a> |
+            <a href="#">Television</a>
+        </div>
+
+        <div class="content">
+            <div class="column">
+                <img src="3.jpg" alt="Placeholder Image">
+                <p class="intro">Travel, food, fun local events; all at <a href="#">family.com</a>.</p>
+                <div class="section">
+                    <h3>BOOKS</h3>
+                    <ul>
+                        <li><a href="#">Disney Publishing</a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h3>HOME VIDEO</h3>
+                    <ul>
+                        <li><a href="#">Aladdin and the King of Thieves</a></li>
+                        <li><a href="#">Toy Story</a></li>
+                        <li><a href="#">Walt Disney Home Video</a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h3>MOVIES</h3>
+                    <ul>
+                        <li><a href="#">101 Dalmatians</a></li>
+                        <li><a href="#">The Hunchback of Notre Dame</a></li>
+                        <li><a href="#">Walt Disney Pictures</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="1.jpg" alt="Placeholder Image">
+                <p class="intro">Six new winners every month! <a href="#">Enter now!</a></p>
+                <div class="section">
+                    <h3>MUSIC</h3>
+                    <ul>
+                        <li><a href="#">Walt Disney Records</a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h3>SHOPPING</h3>
+                    <ul>
+                        <li><a href="#">The Disney Store Online</a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h3>SOFTWARE</h3>
+                    <ul>
+                        <li><a href="#">Disney Interactive</a></li>
+                        <li><a href="#">Walt Disney World</a></li>
+                        <li><a href="#">Disney's Toy Story</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="4.jpg" alt="Placeholder Image">
+                <p class="intro">Secure online ordering at <a href="#">The Disney Store Online</a>.</p>
+                <div class="section">
+                    <h3>TELEVISION</h3>
+                    <ul>
+                        <li><a href="#">The Disney Channel</a></li>
+                        <li><a href="#">Walt Disney Television</a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h3>THEATER</h3>
+                    <ul>
+                        <li><a href="#">Beauty & the Beast</a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h3>THEME PARKS / VACATIONS</h3>
+                    <ul>
+                        <li><a href="#">Disneyland</a></li>
+                        <li><a href="#">Walt Disney World</a></li>
+                        <li><a href="#">Disney Institute</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <a href="">[Return to the top page]</a>
+        </div>
+
+        <div>
+            <ul style="list-style-type: none; display: flex; padding: 0; margin: 0;">
+                <li class="find" style="background-color: red; padding: 10px; color: white; margin-right: 0px; font-size: 18px;"><a href="#" style="color: white; text-decoration: none;">Find</a></li>
+                <li class="help" style="background-color: black; color: white; padding: 10px; margin-right: 0px; font-size: 18px;"><a href="#" style="color: white; text-decoration: none;">Help</a></li>
+                <li class="register" style="background-color: red; padding: 10px; color: white; margin-right: 0px; font-size: 18px;"><a href="#" style="color: white; text-decoration: none;">Register</a></li>
+                <li class="email" style="background-color: black; color: white; padding: 10px; font-size: 18px;"><a href="#" style="color: white; text-decoration: none;">e-mail</a></li>
+            </ul>
+
+        </div>
+
+
+
+        <div class="footer">
+            <p>PLEASE CLICK HERE FOR <a href="#">LEGAL RESTRICTIONS</a> AND <a href="#">TERMS OF USE</a> APPLICABLE TO THIS SITE.<br>
+            THIS SITE SIGNIFIES YOUR AGREEMENT TO THE TERMS OF USE.</p>
+            <p>Created by Disney Online</p>
+        </div>
+    </div>
+</body>
+</html>
